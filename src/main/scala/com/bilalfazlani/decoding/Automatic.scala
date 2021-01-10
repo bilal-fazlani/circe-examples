@@ -8,25 +8,25 @@ object Automatic extends App {
   val employee =
     """
       |{
-      |"id": 2,
-      |"name": "basd",
-      |"managerId": 123
+      |  "id": 2,
+      |  "name": "basd",
+      |  "managerId": 123
       |}
       |""".stripMargin
   val manager =
     """
       |{
-      |"id":123,
-      |"name":"asdasdasd"
+      |  "id":123,
+      |  "name":"asdasdasd"
       |}
       |""".stripMargin
   val managerPerson =
     """
       |{
-      |"Manager":{
-      |"id":123,
-      |"name":"asdasdasd"
-      |}
+      |  "Manager":{
+      |    "id":123,
+      |    "name":"asdasdasd"
+      |  }
       |}
       |""".stripMargin
 

@@ -9,9 +9,9 @@ import com.bilalfazlani._
 object FlatDecoding extends App {
   val managerPerson =
     """{
-      |"id":123,
-      |"name":"asdasdasd",
-      |"_type":"Manager"
+      |  "id":123,
+      |  "name":"asdasdasd",
+      |  "_type":"Manager"
       |}
       |""".stripMargin
 

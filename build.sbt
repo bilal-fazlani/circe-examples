@@ -1,13 +1,15 @@
 name := "circepoc"
 
-version := "0.1"
+version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.13.4"
+scalaVersion := "3.0.0-RC1"
+resolvers += Resolver.JCenterRepository
 
-val circeVersion = "0.14.0-M3"
+val circeVersion = "0.14.0-M4"
 
 libraryDependencies ++= Seq(
-  "io.circe" %% "circe-parser" % circeVersion,
+  "io.circe" %% "circe-core" % circeVersion,
+  "io.circe" %% "circe-extras" % circeVersion,
   "io.circe" %% "circe-generic" % circeVersion,
-  "io.circe" %% "circe-generic-extras" % "0.13.0"
+  "io.circe" %% "circe-parser" % circeVersion,
 )
